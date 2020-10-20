@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinhasVendas</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/normallize.css">
+</head>
+<body>
+    <header>
+        <h1 id="h1Titulo">MinhasVendas</h1><h5> <br> online</h5>
+    </header>
+
+    <main>
+
+        <p id="InfP">Produtos em venda;</p>
+        <section id="sectionProdutoEmVenda">
+            <div id="divSectionProdutoEmVenda">
+                <form action="" id="formProdutos">
+                    <input type="text" disabled class="inputProduto" value="Este é p espaço para produtos do banco de dados.">
+                    <button type="submit" class="buttonConcluir">Concluir Venda</button>
+                    <button type="submit" class="buttonAcessar">Acessar Loja</button>
+                    <input type="text" disabled class="inputProduto" value="Iphone7sUsado-Tecnologia-MercadoLivre">
+                    <button type="submit"  class="buttonConcluir">Concluir Venda</button>
+                    <button type="submit" class="buttonAcessar">Acessar Loja</button>
+                    <input type="text" disabled class="inputProduto" value="Iphone5s-Tecnologia-MagazineLuiza">
+                    <button type="submit" class="buttonConcluir">Concluir Venda</button>
+                    <button type="submit" class="buttonAcessar">Acessar Loja</button>
+                    <input type="text" disabled class="inputProduto" value="Iphone6s-Tecnologia-PontoFrio">
+                    <button type="submit"  class="buttonConcluir">Concluir Venda</button>
+                    <button type="submit" class="buttonAcessar">Acessar Loja</button>
+                </form>
+            </div>
+        </section>
+
+        <p id="InfAdicionarProduto">Adicione um novo produto;</p>
+        <section id="sectionAdicionarProduto">
+            <form id="formAdicionar">
+                <div class="inputLabelArea"> 
+                    <label for="nomeProduto" class="labelFormAdicionar">Nome:</label>
+                    <input type="text" required id="nomeProduto"  class="inputFormAdicionar">
+                    <label for="preço" class="labelFormAdicionar">Preço:</label>
+                    <input type="number" min="1" max="10000" required id="preço" class="inputFormAdicionar">
+                    <label for="loja" class="labelFormAdicionar">loja:</label>
+                    <input type="text" required id="loja" class="inputFormAdicionar">
+                    <label for="tipo" class="labelFormAdicionar">tipo:</label>
+                    <input type="text" required id="tipo" class="inputFormAdicionar">
+                </div>
+                <div id="buttonArea">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <sectio id="controlTamanho">
+
+    </sectio>
+    <footer>
+        <p>Serviço-Minhas-Vendas-Online</p>
+        <p>Copyright@2020.MinhasVendas</p>
+    </footer>
+</body>
+</html>
